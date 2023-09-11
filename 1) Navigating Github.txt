@@ -1,0 +1,22 @@
+Benefits of Git:
+  - Version Control (maintains history, easy to revert)
+  - Collaboration (tells which developer did what)
+
+Repository (Repo): Basically a folder added on GitHub
+
+> Navigating GitHUb:
+
+* If confused at any point:
+  Click in profile picture at top right corner >
+  Click on "Your profile"
+
+* Finding repos
+  Click in profile picture at top right corner >
+  Click on "Your profile" >
+  Click on "Repositories" Tab
+
+* Creating a new Repo
+  Click in profile picture at top right corner >
+  Click on "Your profile" >
+  Click on "Repositories" Tab >
+  Click on "New" Button on top right corner

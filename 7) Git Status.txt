@@ -1,0 +1,30 @@
+* The "status" command tells us about the status of the code, including
+  - the branch we are using
+  - is the code up to date
+  - is there anything to commit
+  - is the working tree clean
+
+Basically it tells whether your local code is up to date with the remote code or not.
+
+* Modified file vs Untracked file
+
+Modified File: It is a file which the git is tracking but the code written inside has
+been altered and not yet committed to the remote repository.
+
+Untracked File: It is a new file that we add inside the local repository which the git
+is not yet tracking. No matter how much code we modify, the git will label it as
+untracked because git is not simply looking for code changes in it as yet. Once we commit
+this new file to the remote repository, then the git will start tracking it normally.
+
+* Staged file
+
+It is a modified file which has been staged for changes. That is, we have added the file
+and the file is ready for commit.
+
+* Note (in VS code) the files appear as follows:
+
+- Modified Files : 'M'
+- Untracked Files : 'U'
+- Staged Added Files : 'A'
+
+Note: Only staged added files show 'A'. Both staged and un-staged modified files show 'M' 

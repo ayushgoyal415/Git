@@ -1,0 +1,14 @@
+* Git vs GitHub (Handling a change in the code)
+Note: On GitHub you don't need to go through 2 step process of staging and then
+committing. Here you can directly commit your changes.
+
+* How to Edit
+  - Open any file from the Repo >
+  - Click on the "pencil icon" on the top right corner >
+  - Edit the file >
+  - Click on the "Commit Changes" button at top right corner >
+  - A dialog box will appear asking for the commit message where you can add a suitable
+    message depicting the change
+
+Note: The commit message appears alongside the filename (this shows the most recent 
+commit for each file)

@@ -1,0 +1,10 @@
+Clone command clones the remote git repository (ie GitHub) to local machine.
+
+For eg. to clone royal red theme from GitHub, write:
+Use Command: git clone https://github.com/ayushgoyal415/royal-red-theme.git
+
+
+* How to get 'https' github link for your repository do the following:
+  Open the repository you want to clone >
+  Click on the code on top right corner >
+  Copy the 'https' code for the repository

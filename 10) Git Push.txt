@@ -1,0 +1,13 @@
+* Using 'git push origin main'
+
+Uploads the local repo content to the remote repo :
+- Here 'origin' is the name of remote repository
+- Here 'main' is the name of branch in the remote repository
+
+* Using 'git push -u origin main'
+
+- 'u' stands for upstream
+- Does everything that push does
+- Also tells the git that in future we will be pushing to 'origin main' only. So that
+  in future we can simply use 'git push' rather than writing the whole code again and
+  again.

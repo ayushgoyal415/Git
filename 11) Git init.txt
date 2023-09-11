@@ -1,0 +1,29 @@
+* Using 'git init'
+
+- Used to create a new git repo on local machine
+- After making a local git repo, we might want to publish it to GitHub (remote repo)
+
+* Using 'git remote -v'
+Verifies and mentions the remote repo linked to the local git repo.
+Note that the local git repo made using 'git init' is not yet linked to any remote repo.
+
+* 'git remote vs git remote -v'
+- 'git remote' tells us about the name of the remote repo which by default is 'origin'
+- 'git remote -v' tells us about the (fetch and push) names and https links of the
+   remote repo
+
+* Linking local git repo to a remote git repo
+
+Step 1: Create a remote git repo on GitHub
+
+Step 2: Link the local repo to a remote repos by the following command
+          git remote add origin < https link to the remote repo >
+
+Step 3: Getting the name of remote repo
+          git remote -v
+
+Step 4: Getting the name of the branch
+          git branch
+
+Step 5: Pushing the contents of local repo to remote repo
+          git push origin main

@@ -1,0 +1,14 @@
+* Using 'git add file_name'
+Adds untracked or modified files to the Git Staging area.
+
+* Using 'git restore --staged file_name'
+Removes a staged file from the Git Staging area.
+
+* Using 'git add .'
+Adds all untracked or modified files to the Git Staging area.
+
+* Using 'git restore --staged .'
+Removes all staged files from the Git Staging area.
+
+* Another way of un-staging the staged files
+git reset < filename > (for multiple files, use git reset)

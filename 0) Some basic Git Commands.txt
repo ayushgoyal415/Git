@@ -1,0 +1,10 @@
+* Some basic Git commands
+
+ - "clear" : clears the terminal
+ - "pwd" : shows the path to present working (current) directory
+ - "ls" : lists the contents (folders/folders) in the pwd
+ - "ls -a" : lists all contents (including hidden files/folders) in the pwd
+ - "cd < child_folder_name >" : changes directory to the child of pwd
+ - "cd .." : changes the directory to the parent folder of pwd
+ - "mkdir < new_folder_name >" : creates a new folder in the pwd
+ - "q": to exit out of terminal

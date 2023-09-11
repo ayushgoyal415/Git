@@ -1,0 +1,13 @@
+* What are merge conflicts?
+Merge conflicts occur when the Git is not able to automatically resolve differences in
+the code. For eg. when there is alteration in the same line of code in 2 branches.
+  eg: main branch: <p>This is a new feature: Button</p>
+      feat branch: <p>This is a new feature: NavBar</p>
+
+* How to handle merge conflicts using VS Code?
+To handle merge conflicts, we have to manually tell the git about the changes we
+want to keep and ignore.
+- When we try to merge two branches with merge conflicts using VS code, the VS Code
+  opens a merge conflict editor where you can easily deal with conflicts.
+- If we changed the feature_branch, then we have to again add and then commit
+- And then we can finally merge without any conflicts

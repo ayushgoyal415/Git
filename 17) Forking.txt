@@ -1,0 +1,11 @@
+It is an option available on GitHub. Basically it is used to collaborate with others.
+
+For eg. Let's say the you want to improve 'express.js'. In such case do the following :
+
+- Go to GitHub and search for 'express'
+- Fork the express
+- Doing this will create a remote repository of express into your GitHub account
+- Now you can alter the code as you would do normally
+- After all is done, you can make a pull request to the express team to accept the
+  changes you have made in the express code
+  

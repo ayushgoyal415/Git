@@ -1,0 +1,3 @@
+* Set the default integrated terminal to GitBash
+"terminal.integrated.defaultProfile.windows": "Git Bash"
+

@@ -1,0 +1,32 @@
+> Reverting back (commit only) by moving the head to a previous position
+Note: Use 'git log --all' to verify that only the head has moved to previous commit 
+position without deleting future commits.
+
+  -> Reverting back by n commit(s)
+  ~ git reset head~n
+
+  -> Reverting back to a specific commit
+  ~ git reset < commit hash >
+
+
+> Reverting back (commit & code) by moving the head to a previous position
+* Creates a 'detached head' state
+If you try to create a commit from this new position, a branch will be created
+automatically.
+    
+    -> Reverting back by n commit(s)
+    ~ git reset --hard head~n
+
+    -> Reverting back to a specific commit
+    ~ git reset --hard < commit hash >
+    ~ git checkout < commit hash >
+
+
+> Reverting back (code only) without moving the head
+* Usually this is the best option
+Note: Use 'git log --all' to verify that the head has not moved and no commits have
+deleted. If you try to commit from this position, no new branch is formed as we are
+have not changed the head position.
+
+    ~ git checkout < commit hash > .
+    ~ git checkout < commit hash > < filename(s) >

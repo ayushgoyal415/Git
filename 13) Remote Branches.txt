@@ -1,0 +1,44 @@
+> Working with remote branches
+
+Note: To shift between branches on GitHub, open the repo and look for branches in the
+top left corner.
+
+* git branch -a
+Lists all branches in your local and remote repository
+
+* Adding a new branch to remote repository
+If we push a local branch to remote repository which does not have this new branch, the
+git will automatically add a new branch in the remote repository and push the contents
+of local repository branch to that branch.
+  git push origin < name_of_new_branch >
+
+* Adding a remote branch to local repository
+If we checkout a remote branch, the git will automatically add that new branch into the
+local repository.
+  git checkout < remote_branch_name >
+
+* Deleting a remote branch
+Once you’ve finished working on a branch and have merged it into the main code base,
+you’re free to delete the branch without losing any history:
+  git branch -d < branch_name >
+
+The previous commands will delete a local copy of a branch. The branch may still exist
+in remote repos. To delete a remote branch execute the following:
+  git push origin --delete < branch_name >
+              ---OR---
+  git push origin :< branch_name >
+
+* Renaming a remote branch
+Step 1: Make sure that the local repo has the correct branch name
+          git branches -a
+
+Step 2: Now add the remote branch with correct name
+          git push origin < new_branch_name >
+
+Step 3: Now delete the remote repo with wrong name
+          git push origin :< old_branch_name >
+
+Note: If you want to change the name of the default branch then you have to do an
+additional step before step 3. Go to GitHub and update your default branch to the
+new branch. It is very difficult process in general.
+

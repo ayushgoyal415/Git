@@ -1,0 +1,6 @@
+Note: '~' the tilde sign in GitBash means that you are in root directory
+The following changes should be done when you are in root directory
+
+git config --global user.name "Ayush"
+git config --global user.email "ayushgoyal415@gmail.com"
+git config --list

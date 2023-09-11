@@ -1,0 +1,7 @@
+Download the latest version from: https://git-scm.com/download/win
+
+* Manual changes to make while installing Git
+  - Add the icon to desktop
+  - Change the name of initial branch to "main"
+  - Adjusting Path environment:
+      Choose "Use Git and optional Unix tools from the Command Prompt"

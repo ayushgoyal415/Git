@@ -1,0 +1,35 @@
+* Using 'git diff < commit_name/branch_name/file_name >'
+Compares 2 commits/branches/files
+Note: Press 'q' to exit out of terminal
+
+* Merging by using GitHub
+- Once any developer has pushed changes to the remote branch (eg feature_branch), the
+  person reviewing the main branch (usually project manager) will get a notification on
+  GitHub that there are recent pushes on the 'feature_branch'.
+- Now he can click on the 'Compare and Pull request'
+- Then he can give a name to the pull request or can use the commit name used by you.
+- Then click on 'Create Pull request'
+- Then GitHub will check whether merging can be done automatically or not (basically
+  by confirming that there are no conflicts between the base and the feature_branch)
+- Then the manager will be presented with a 'commit to merge' and confirming merge.
+
+* Using 'git pull origin main'
+
+You will notice a strange once the project manager has successfully merged
+the feature_branch to the main branch and has closed the pull request:
+
+- The main branch in the remote repo (ie GitHub) has received the merged changes
+- But the main branch in the local repo has not received the merged changes
+- This is the time where we use the 'pull' command
+- The pull command is used to fetch and download content from a remote repo and updates
+  the local repo to match that content
+
+* Merging by using 'git merge < feature_branch >'
+
+Step 1: git checkout main
+
+Step 2: git merge < feature_branch >
+
+Note: This command will merge the feature_branch with the main branch in the "local"
+repo. Thus, this time, the changes will not reflect in the remote repo. Thus after the
+change, don't forget to update the remote repo by sending 'git push origin main' command.
